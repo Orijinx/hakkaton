@@ -1,0 +1,24 @@
+/* #mapid {
+    height: 400px;
+} */
+
+.map {
+    height: 500px;
+    width: 70%;
+    -webkit-box-shadow: 28px 29px 32px 18px rgba(3, 82, 53, 1);
+    -moz-box-shadow: 28px 29px 32px 18px rgba(3, 82, 53, 1);
+    box-shadow: 28px 29px 32px 18px rgba(3, 82, 53, 1);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url(../images/bg_klg.png);
+    backdrop-filter: blur(6px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
